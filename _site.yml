@@ -1,0 +1,27 @@
+name: matthewabarlow-website
+output_dir: '.'
+navbar:
+  title: Matthew A. Barlow
+  left:
+  - text: Home
+    href: index.html
+  - text: Research
+    href: pubs.html
+  - text: Teaching
+    href: teaching.html
+  - text: Presentations
+    href: presentations.html
+  right: 
+  - icon: fa-envelope fa-lg
+    href: mailto:mabarlow@utep.edu
+  - icon: fa-twitter fa-lg
+    href: https://twitter.com/mabarlow00
+  - icon: fa-linkedin fa-lg  
+    href: https://www.linkedin.com/in/mabarlow00/
+output:
+  html_document:
+    theme: yeti
+    highlight: pygments
+    lib_dir: site_libs
+    self_contained: no
+
